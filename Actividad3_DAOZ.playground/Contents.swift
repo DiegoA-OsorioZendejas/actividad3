@@ -23,9 +23,8 @@ A) Declara el tipo de dato por asociación para un tipo de dato String
     var as_string = ("String1" , "String 2")
     print("El segundo String es \(as_string.0)")
 //: B) Declara el tipo de dato por asociación para un tipo de dato  Número entero.
-
-
-
+    var as_int = (x:1, y:2)
+    print("El valor de Y es: \(as_int.y)")
 /*: 
 ### Arreglos y Diccionarios
 A) Crea la variable "numeros" de tipo Array con números consecutivos del 1 a 10.
